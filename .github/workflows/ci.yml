@@ -3,7 +3,7 @@ name: Java CI Pipeline
 on:
   push:
     branches:
-      - main     # Changed from master/develop to match your new repo's default branch
+      - main     # Changed from master/develop to match your new repo's default branch added
   workflow_dispatch:
 
 jobs:
