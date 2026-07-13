@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on:
-      group: dev-runners
+      group: qa-runners
       labels: 
         - qa
 
