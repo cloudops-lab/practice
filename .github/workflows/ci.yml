@@ -10,7 +10,8 @@ jobs:
   build:
     runs-on:
       group: dev-runners
-      labels: [self-hosted, Linux, X64, dev]
+      labels: 
+        - qa
 
     steps:
       - name: Checkout Source
